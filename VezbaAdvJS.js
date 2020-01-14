@@ -37,9 +37,7 @@ function Student(firstName, lastName, birthYear, academy, grades) {
         return average;
     }
 }
-
-let dejan = new Student("Igor", "Jovanovski", 1999, "SEDC", [10, 9, 8, 7, 6])
-
-dejan.getAge(1999)
-
-console.log(dejan.getGradesAverage())
+let students = []
+students.push(new Student("Igor", "Jovanovski", 1999, "SEDC", [10, 9, 8, 7, 6]))
+students.push(new Student("Buco", "Ivanovski", 1990, "SEDC", [2, 3, 2, 10, 5]))
+students.push(new Student("Andrej", "Hristovski", 1999, "SEDC", [10, 7, 4, 8, 3]))
